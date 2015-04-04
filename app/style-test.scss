@@ -1,0 +1,42 @@
+html {
+  font-size: 100%;
+
+  body{
+    margin: 0;
+
+    background-color: #003f81;
+
+    .content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkitR-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+
+      width: auto;
+      padding: 10px;
+      height: 50px;
+
+      background-color: #007897;
+
+      margin: 0;
+
+      &:hover{
+        
+      }
+
+      p {
+        color: #990055;
+      }
+    }
+    @media screen and (max-width: 500px) {
+      .content{
+        background-color: #fff;
+      }
+      p{
+        color: #880000;
+      }
+    }
+
+  }
+}

@@ -1,0 +1,25 @@
+html {
+  font-size: 100%; }
+  html body {
+    margin: 0;
+    background-color: #003f81; }
+    html body .content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkitR-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      width: auto;
+      padding: 10px;
+      height: 50px;
+      background-color: #007897;
+      margin: 0; }
+      html body .content p {
+        color: #990055; }
+    @media screen and (max-width: 500px) {
+      html body .content {
+        background-color: #fff; }
+      html body p {
+        color: #880000; } }
+
+/*# sourceMappingURL=style-test.css.map */

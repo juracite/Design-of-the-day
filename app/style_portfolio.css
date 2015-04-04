@@ -1,0 +1,13 @@
+nav {
+    overflow: visible;
+}
+nav span {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background: #0069ac;
+    border-radius: 0px;
+}
+.border-radius {
+    border-radius: 500px;
+}
